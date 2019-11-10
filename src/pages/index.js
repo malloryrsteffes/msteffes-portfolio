@@ -182,7 +182,7 @@ class HomeIndex extends React.Component {
                     <h3 className="icon fa-mobile">
                       <span className="label">Phone</span>
                     </h3>
-                    813-966-3838
+                    813.966.3838
                   </li>
                   <li>
                     <h3 className="icon fa-envelope-o">
