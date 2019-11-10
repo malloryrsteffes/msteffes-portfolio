@@ -84,12 +84,23 @@ class HomeIndex extends React.Component {
             <p>
               I am a full stack developer and recent bootcamp graduate, on the
               hunt for my first job in the industry. I'm a hard worker, eager
-              learner, and I'm ready to hit the ground running! Open to
-              relocation.
+              learner, and I'm ready to hit the ground running! I've served as a
+              project manager on multiple full stack applications, and am
+              confident in both my learned skills and my Google-fu.
+              <br></br>
+              <br></br>
+              In my spare time, I love weightlifting, watching football, and
+              playing board games.
+              <br></br>
+              <br></br>
+              <i>Open to relocation.</i>
             </p>
             <ul className="actions">
               <li>
-                <a href="#" className="button">
+                <a
+                  href="https://www.linkedin.com/in/mallorysteffes/"
+                  className="button"
+                >
                   Find me on LinkedIn
                 </a>
               </li>
@@ -112,7 +123,7 @@ class HomeIndex extends React.Component {
 
             <ul className="actions">
               <li>
-                <a href="#" className="button">
+                <a href="https://github.com/malloryrsteffes" className="button">
                   Find me on Github
                 </a>
               </li>
