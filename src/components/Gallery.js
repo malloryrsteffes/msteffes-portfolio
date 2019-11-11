@@ -5,7 +5,6 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 class Gallery extends Component {
     constructor () {
         super();
-
         this.state = {
             lightboxIsOpen: false,
             selectedIndex: 0
@@ -20,6 +19,7 @@ class Gallery extends Component {
         }));
     }
     renderGallery (images) {
+        const proxyurl = "https://cors-anywhere.herokuapp.com/";
         if (!images) return;
 
         const gallery = images.map((obj, i) => {
@@ -27,10 +27,10 @@ class Gallery extends Component {
                 <article className="6u 12u$(xsmall) work-item" key={i}>
                     <a
                         className="image fit thumb"
-                        href={obj.source}
+                        href={proxyurl + obj.source}
                         onClick={e => {
                             e.preventDefault();
-                            this.toggleLightbox(i);
+                            window.location.assign(obj.source);
                         }}
                     >
                         <img src={obj.thumbnail} />

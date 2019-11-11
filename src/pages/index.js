@@ -10,38 +10,33 @@ import thumb02 from '../assets/images/thumbs/nameIt.png'
 import thumb03 from '../assets/images/thumbs/gridironClicky.png'
 import thumb04 from '../assets/images/thumbs/crystaltheme.jpg'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-
 const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: full01,
+    source: 'https://fathomless-headland-64750.herokuapp.com/',
     thumbnail: thumb01,
     caption: 'Footprint',
-    description: 'A full stack React app, built to encourage and increase environmental consciousness.',
+    description:
+      'A full stack React app, built to encourage and increase environmental consciousness.',
   },
   {
     id: '2',
-    source: full02,
+    source: 'https://polar-plateau-40591.herokuapp.com/',
     thumbnail: thumb02,
     caption: 'Name-It!',
-    description: 'A full-stack, light-hearted name generating app. Built with Javascript/jQuery, Node, mySQL.',
+    description:
+      'A full-stack, light-hearted name generating app. Built with Javascript/jQuery, Node, mySQL.',
   },
   {
     id: '3',
-    source: full03,
+    source: 'https://malloryrsteffes.github.io/gridiron-clicky-game/',
     thumbnail: thumb03,
     caption: 'The Gridiron Clicky Game',
     description: 'A sporty take on the class memory game. Built with React.',
   },
   {
     id: '4',
-    source: full04,
+    source: 'https://malloryrsteffes.github.io/crystal-game/',
     thumbnail: thumb04,
     caption: 'Crystal Collector',
     description: 'A simple game built primarily with Javascript and jQuery',
