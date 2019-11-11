@@ -79,6 +79,8 @@ class HomeIndex extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/mallorysteffes/"
                   className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Find me on LinkedIn
                 </a>
@@ -102,7 +104,12 @@ class HomeIndex extends React.Component {
 
             <ul className="actions">
               <li>
-                <a href="https://github.com/malloryrsteffes" className="button">
+                <a
+                  href="https://github.com/malloryrsteffes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button"
+                >
                   Find me on Github
                 </a>
               </li>
