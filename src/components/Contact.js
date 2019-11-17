@@ -69,14 +69,6 @@ class ContactForm extends React.Component {
           <div className="4u 12u$(small)">
             <ul className="labeled-icons">
               <li>
-                <h3 className="icon fa-home">
-                  <span className="label">Address</span>
-                </h3>
-                Brooklyn, NY 11221 St. Petersburg, FL 33707
-                <br />
-                United States
-              </li>
-              <li>
                 <h3 className="icon fa-mobile">
                   <span className="label">Phone</span>
                 </h3>
