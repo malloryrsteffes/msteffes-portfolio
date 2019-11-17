@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -13,20 +13,6 @@ class ContactForm extends React.Component {
     console.log('Form submitted!')
     const form = ev.target
     console.log(form)
-    // const data = new FormData(form)
-    // const xhr = new XMLHttpRequest()
-    // xhr.open(form.method, form.action)
-    // xhr.setRequestHeader('Accept', 'application/json')
-    // xhr.onreadystatechange = () => {
-    //   if (xhr.readyState !== XMLHttpRequest.DONE) return
-    //   if (xhr.status === 200) {
-    //     form.reset()
-    //     this.setState({ status: 'SUCCESS' })
-    //   } else {
-    //     this.setState({ status: 'ERROR' })
-    //   }
-    // }
-    // xhr.send(data)
   }
 
   render() {
@@ -49,6 +35,7 @@ class ContactForm extends React.Component {
                     id="name"
                     placeholder="Name"
                     required
+                    label="name"
                   />
                 </div>
                 <div className="6u 12u$(xsmall)">
@@ -58,6 +45,7 @@ class ContactForm extends React.Component {
                     id="email"
                     placeholder="Email"
                     required
+                    label="email"
                   />
                 </div>
                 <div className="12u">
@@ -67,12 +55,13 @@ class ContactForm extends React.Component {
                     placeholder="Message"
                     rows="4"
                     required
+                    label="message"
                   ></textarea>
                 </div>
               </div>
               <ul className="actions">
                 <li>
-                  <input type="submit" value="Send" />
+                  <input type="submit" value="Send" label="send" />
                 </li>
               </ul>
             </form>
@@ -83,7 +72,7 @@ class ContactForm extends React.Component {
                 <h3 className="icon fa-home">
                   <span className="label">Address</span>
                 </h3>
-                Brooklyn, NY 11221
+                Brooklyn, NY 11221 St. Petersburg, FL 33707
                 <br />
                 United States
               </li>
@@ -97,7 +86,9 @@ class ContactForm extends React.Component {
                 <h3 className="icon fa-envelope-o">
                   <span className="label">Email</span>
                 </h3>
-                <a href="#">malrsteffes@gmail.com</a>
+                <a href="mailto:@malrsteffes@gmail.com">
+                  malrsteffes@gmail.com
+                </a>
               </li>
             </ul>
           </div>

@@ -11,11 +11,11 @@ class Header extends React.Component {
         return (
             <header id="header">
                 <div className="inner">
-                    <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
+                    <a href="/" className="image avatar"><img src={avatar} alt="" /></a>
                     <h1><strong>Hi there! I'm Mallory.</strong></h1>
                     <br></br>
                     <h3>Skills</h3>
-                    <ul style={listSyle}>
+                    <ul style={listSyle} className="header-list">
                         <li>HTML/CSS</li>
                         <li>Javascript</li>
                         <li>jQuery</li>

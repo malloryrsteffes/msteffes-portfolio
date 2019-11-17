@@ -38,9 +38,6 @@ class Footer extends React.Component {
           <ul className="copyright">
             <li>Many thanks to:</li>
             <li>&copy; Gatsby Starter Strata</li>
-            <li>
-              Design: <a href="http://html5up.net">HTML5 UP</a>
-            </li>
           </ul>
         </div>
       </div>

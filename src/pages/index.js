@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
-import Contact from '../components/Contact/Contact'
+import Contact from '../components/Contact'
 
 import thumb01 from '../assets/images/thumbs/footprint.png'
 import thumb02 from '../assets/images/thumbs/nameIt.png'
@@ -69,7 +69,7 @@ class HomeIndex extends React.Component {
               confident in both my learned skills and my Google-fu.
               <br></br>
               <br></br>
-              In my spare time, I love weightlifting, watching football, and
+              In my spare time, I love weightlifting, losing in my fantasy football leagues, and
               playing board games.
               <br></br>
               <br></br>
