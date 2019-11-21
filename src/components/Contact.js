@@ -59,6 +59,7 @@ class ContactForm extends React.Component {
                   ></textarea>
                 </div>
               </div>
+              <br></br>
               <ul className="actions">
                 <li>
                   <input type="submit" value="Send" label="send" />

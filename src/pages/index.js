@@ -62,15 +62,15 @@ class HomeIndex extends React.Component {
               <h2>Welcome to my site!</h2>
             </header>
             <p>
-              I am a full stack developer and recent bootcamp graduate, on the
-              hunt for my first job in the industry. I'm a hard worker, eager
-              learner, and I'm ready to hit the ground running! I've served as a
-              project manager on multiple full stack applications, and am
-              confident in both my learned skills and my Google-fu.
+              I am a full stack developer and recent bootcamp graduate. I'm a
+              hard worker, eager learner, and I'm ready to hit the ground
+              running! I've served as a project manager on multiple full stack
+              applications, and am confident in both my learned skills and my
+              Google-fu.
               <br></br>
               <br></br>
-              In my spare time, I love weightlifting, losing in my fantasy football leagues, and
-              playing board games.
+              In my spare time, I love weightlifting, losing in my fantasy
+              football leagues, and playing board games.
               <br></br>
               <br></br>
               <i>Open to relocation.</i>
@@ -118,7 +118,7 @@ class HomeIndex extends React.Component {
           </section>
 
           <section id="three">
-           <Contact />
+            <Contact />
           </section>
         </div>
       </Layout>
