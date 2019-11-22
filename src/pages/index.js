@@ -9,12 +9,12 @@ import Contact from '../components/Contact'
 import thumb01 from '../assets/images/thumbs/footprint.png'
 import thumb02 from '../assets/images/thumbs/nameIt.png'
 import thumb03 from '../assets/images/thumbs/gridironClicky.png'
-import thumb04 from '../assets/images/thumbs/crystaltheme.jpg'
+import thumb04 from '../assets/images/thumbs/crystals.png'
 
 const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: 'https://fathomless-headland-64750.herokuapp.com/',
+    source: 'https://project-footprint.herokuapp.com/',
     thumbnail: thumb01,
     caption: 'Footprint',
     description:
