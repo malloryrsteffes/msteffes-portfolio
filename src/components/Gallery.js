@@ -33,7 +33,7 @@ class Gallery extends Component {
                             window.location.assign(obj.source);
                         }}
                     >
-                        <img src={obj.thumbnail} alt="portfolio"/>
+                        <img src={obj.thumbnail} alt="portfolio" style={{"height": "200px"}}/>
                     </a>
 
                     <h3>{obj.caption}</h3>
