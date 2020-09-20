@@ -6,48 +6,49 @@ import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 import Contact from '../components/Contact'
 
-import thumb01 from '../assets/images/thumbs/footprint.png'
-import thumb02 from '../assets/images/thumbs/nameIt.png'
-import thumb03 from '../assets/images/thumbs/gridironClicky.png'
-import thumb04 from '../assets/images/thumbs/crystals.png'
+import thumb01 from '../assets/images/thumbs/summero.jpg'
+import thumb02 from '../assets/images/thumbs/pathfinder.jpg'
+import thumb03 from '../assets/images/thumbs/social-proof.jpg'
+import thumb04 from '../assets/images/thumbs/footprint.png'
 
 const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: 'https://project-footprint.herokuapp.com/',
+    source: 'https://malloryrsteffes.github.io/summero/',
     thumbnail: thumb01,
-    caption: 'Footprint',
+    caption: 'Summero',
     description:
       'A full stack React app, built to encourage and increase environmental consciousness.',
   },
   {
     id: '2',
-    source: 'https://polar-plateau-40591.herokuapp.com/',
+    source: 'https://malloryrsteffes.github.io/loopLab/',
     thumbnail: thumb02,
-    caption: 'Name-It!',
+    caption: 'PathFinder',
     description:
       'A full-stack, light-hearted name generating app. Built with Javascript/jQuery, Node, mySQL.',
   },
   {
     id: '3',
-    source: 'https://malloryrsteffes.github.io/gridiron-clicky-game/',
+    source: 'https://malloryrsteffes.github.io/social-proof/',
     thumbnail: thumb03,
-    caption: 'The Gridiron Clicky Game',
+    caption: 'Social Proof',
     description: 'A sporty take on the class memory game. Built with React.',
   },
   {
     id: '4',
-    source: 'https://malloryrsteffes.github.io/crystal-game/',
+    source: 'https://project-footprint.herokuapp.com/',
     thumbnail: thumb04,
-    caption: 'Crystal Collector',
-    description: 'A simple game built primarily with Javascript and jQuery',
+    caption: 'Footprint',
+    description:
+      'A full stack React app, built to encourage and increase environmental consciousness.',
   },
 ]
 
 class HomeIndex extends React.Component {
   render() {
     const siteTitle = 'Mallory Steffes'
-    const siteDescription = 'Full Stack Junior Developer Portfolio'
+    const siteDescription = 'Front End Developer Portfolio'
 
     return (
       <Layout>
@@ -62,9 +63,8 @@ class HomeIndex extends React.Component {
               <h2>Welcome to my site!</h2>
             </header>
             <p>
-              I am a full stack developer and recent bootcamp graduate. I'm a
-              hard worker, eager learner, and I'm ready to hit the ground
-              running! I've served as a project manager on multiple full stack
+              I am a front end developer, curently living in St. Pete Beach,
+              Florida. I've served as a project manager on multiple full stack
               applications, and am confident in both my learned skills and my
               Google-fu.
               <br></br>
